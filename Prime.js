@@ -1,7 +1,7 @@
 Let num = 17;
 Let count = 0;
-for(let i=1; i <= num; i ++){
-	if(num % i==0){
+for(let i=1; i <= num; i ++){//loop
+	if(num % i==0){        //condition
     count++
   }
 	}
