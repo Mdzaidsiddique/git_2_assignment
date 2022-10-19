@@ -1,6 +1,6 @@
 let str = 'madam';
 let str_p = '';
-for(let i = str.length-1; i>=0; i++){ //should be i--
+for(let i=0; i<=str.length-1; i++){ //should be i--//both are same
   str_p +=str[i];
 }
 if(str == str_p){
